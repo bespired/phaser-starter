@@ -1,13 +1,17 @@
 {
     "name": "PhaserStarter",
     "version": "1.0.0",
-    "description": "",
+    "description": "A bootstrap project to create games with Phaser + ES6 + Webpack",
     "author": "Joeri Kassenaar (joeri@bespired.nl)",
     "main": "index.js",
     "scripts": {
         "dev"    : "webpack",
         "deploy" : "webpack --config webpack.production.config.js",
         "test"   : "eslint ./src/**/**.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git//github.com/bespired/phaser-starter.git"
     },
     "license": "MIT",
     "devDependencies": {
